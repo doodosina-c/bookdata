@@ -11,5 +11,7 @@ dependencies = [
     "aiohttp",
     "beautifulsoup4",
     "pandas",
-    "pyyaml"
+    "pyyaml",
+    "openpyxl",
+    "aiodns"
 ]
