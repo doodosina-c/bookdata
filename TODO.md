@@ -1,0 +1,2 @@
+- [ ] Add logging
+- [ ] Add docstrings for other methods
