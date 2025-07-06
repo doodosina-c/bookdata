@@ -16,8 +16,8 @@ venv\Scripts\activate
 # for Linux/Mac:
 source venv/bin/activate
 
-# Install libraries
-pip install -r requirements.txt
+# Install the package
+pip install -e .
 ```
 Description:
 The library supports scraping only one site (https://books.toscrape.com). The `BookScraper` class, designed for data scraping one category, requires an asynchronous context manager - it allows implicit closing of an `aiohttp.ClientSession` instance. The class covers not all cases, but the most common cases (scraping and a data export), while allowing data processing and other operations. The class provides two asynchronous methods: `scrape()`, which returns raw data about each product from the specified category as a list of dictionaries, and `save_data()`, which processes the raw data returned by `scrape()` (Type casting of some columns to `float` from `str` and other operations, more detailed in the docstring of `save_data()`)  and then exports it in one of 3 supported formats: `"df"` (the `pandas.DataFrame` class), `"csv"` (using `pandas.DataFrame.to_csv`), `"excel"` (using `pandas.DataFrame.to_excel`). To prevent excess abstractions and allow a simple export, the first format is intended to be used by users familiar with `pandas` and need an advanced processing, an export in unsupported formats and the last two formats are intended to be used by users unfamiliar with `pandas` and need a simple scraping and a data export. 
