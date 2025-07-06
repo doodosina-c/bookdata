@@ -1,7 +1,7 @@
 Installation:
 Install via `git`:
 ```bash
-git clone https://github.com/ваш_логин/booksdata.git
+git clone https://github.com/your_login/booksdata.git
 cd booksdata
 ```
 or press the "Download Zip" button (on GitHub) to install without `git`.
