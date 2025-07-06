@@ -1,3 +1,3 @@
-from booksdata.parsing import BookScraper
+from .parsing import BookScraper
 
 __all__ = ["BookScraper"]
