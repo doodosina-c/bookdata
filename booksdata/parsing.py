@@ -8,7 +8,7 @@ from bs4 import BeautifulSoup
 from functools import partial
 from typing import Optional, Callable, Mapping, Any, Sequence, Iterable
 from pandas import DataFrame
-from booksdata.settings import load_config
+from .settings import load_config
 
 base_connector_settings, base_features, base_headers, base_name_dns_servers, base_payload, base_timeout_settings, base_url = load_config()
 
