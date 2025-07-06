@@ -4,7 +4,6 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "booksdata"
-packages = ["booksdata"]
 version = "0.1.0"
 description = "Asynchronous web scraper for books.toscrape.com"
 readme = "README.md"
@@ -17,3 +16,5 @@ dependencies = [
     "openpyxl",
     "aiodns"
 ]
+[tool.setuptools]
+packages = ["booksdata.booksdata"]
