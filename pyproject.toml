@@ -17,5 +17,5 @@ dependencies = [
     "aiodns"
 ]
 [tool.setuptools]
-package-dir = { "booksdata" = "src/booksdata" }
+package-dir = {"" = "src"}
 packages = ["booksdata"]
