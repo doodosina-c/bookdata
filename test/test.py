@@ -1,4 +1,4 @@
-from src.booksdata import BookScraper
+from booksdata import BookScraper
 import asyncio
 
 async def main():
