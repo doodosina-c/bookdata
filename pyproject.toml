@@ -3,7 +3,7 @@ requires = ["setuptools>=65.0.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "booksdata"
+name = "bookdata"
 version = "0.1.0"
 description = "Asynchronous web scraper for books.toscrape.com"
 readme = "README.md"
@@ -18,4 +18,4 @@ dependencies = [
 ]
 [tool.setuptools]
 package-dir = {"" = "src"}
-packages = ["booksdata"]
+packages = ["bookdata"]
