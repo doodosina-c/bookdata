@@ -1,8 +1,8 @@
 Installation:
 Install via `git`:
 ```bash
-git clone https://github.com/your_login/booksdata.git
-cd booksdata
+git clone https://github.com/your_login/bookdata.git
+cd bookdata
 ```
 or press the "Download Zip" button (on GitHub) to install without `git`.
 Then open a terminal in the project folder and execute:
